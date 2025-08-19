@@ -6,7 +6,7 @@
 
 body {
 	padding: 40px;
-	background-color: #151515;
+	background-color: #391aff;
 	color: burlywood;
 	font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
@@ -26,10 +26,10 @@ h2 {
 }
 
 .card {
-	border: 2px soild #4b5362;
+	border: 2px soild #f00044;
 	padding: 20px;
 	margin: 10px;
-	background-color: #31363f;
+	background-color: #78a7ff;
 	border-radius: 10px;
 	min-height: 100px;
 }
