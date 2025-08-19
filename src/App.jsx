@@ -14,9 +14,9 @@ const App = () => {
 		<div className="card-container">
 			<Card title="Hairy Plopper" rating={5} isCool={true} />
 			<Card title="Unhappy Potter" rating={1} />
-			<Card title="Simple Jack" rating={100} />
+			<Card title="Simple Jack" rating={10} />
 			<Card title="mission possible" rating={1000} />
-			<Card title="Avoongarz" rating={10} />
+			<Card title="Avoongarz" rating={100} />
 		</div>
 	);
 };
