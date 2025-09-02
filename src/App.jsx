@@ -11,13 +11,16 @@ const Card = ({ title }) => {
 
 const App = () => {
 	return (
-		<div className="card-container">
-			<Card title="Hairy Plopper" rating={5} isCool={true} />
-			<Card title="Unhappy Potter" rating={1} />
-			<Card title="Simple Jack" rating={10} />
-			<Card title="mission possible" rating={1000} />
-			<Card title="Avoongarz" rating={100} />
-		</div>
+		<>
+			<h1>hola</h1>
+			<div className="card-container">
+				<Card title="Hairy Plopper" rating={5} isCool={true} />
+				<Card title="Unhappy Potter" rating={1} />
+				<Card title="Simple Jack" rating={10} />
+				<Card title="mission possible" rating={1000} />
+				<Card title="Avoongarz" rating={100} />
+			</div>
+		</>
 	);
 };
 
