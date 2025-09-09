@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	padding: 40px;
 	color: #deb887;
@@ -93,16 +94,84 @@ body {
 	animation: cosmicDrift 60s linear infinite;
 }
 
-h1 {
-	font-size: 190px;
-	font-family: EaseGeometricATRIAL_Fallback_ebe1c3, Arial, sans-serif;
-	line-height: 85%;
+@font-face {
+	font-family: FuturisticFont1;
+	src: url(/fonts/f27c092fffb8e521-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 100;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: FuturisticFont1;
+	src: url(/fonts/51420823def34e84-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 350;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: FuturisticFont1;
+	src: url(/fonts/dada5eafdc526c14-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: FuturisticFont1;
+	src: url(/fonts/887881099112dc91-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 695;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: FuturisticFont1;
+	src: url(/fonts/a5593dc8fd418baf-s.p.otf) format('opentype');
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 160px;
+	font-family: FuturisticFont1, sans-serif;
+	line-height: 85%;
+	margin-bottom: 20px;
+	font-weight: 350;
+	font-style: normal;
+}
+
 h2 {
 	color: #938930;
 	text-align: center;
 	font-size: 24px;
+}
+
+.light {
+	font-family: FuturisticFont1, sans-serif;
+	font-weight: 100;
+}
+
+.regular {
+	font-family: FuturisticFont1, sans-serif;
+	font-weight: 350;
+}
+
+.medium {
+	font-family: FuturisticFont1, sans-serif;
 	font-weight: 500;
+}
+
+.bold {
+	font-family: FuturisticFont1, sans-serif;
+	font-weight: 695;
+}
+
+.extra-bold {
+	font-family: FuturisticFont1, sans-serif;
+	font-weight: 900;
 }
 
 .card-container {
